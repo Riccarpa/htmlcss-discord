@@ -1,166 +1,196 @@
-/* reset */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-
-/* utils */
-
-.container {
-    max-width: 1200px auto;
-    margin: 0 auto;
-}
-
-.col {
-    float: left;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.wd-20 {
-    width: 20%;
-}
-
-.wd-60 {
-    width: 60%;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.btn {
-    border-radius: 15px;
-}
-
-.col .btn a {
-    padding: 15px 25px;
-}
-
-.btn a {
-    text-decoration: none;
-    color: black;
-}
-
-.btn-white {
-    background-color: white;
-    color: black;
-    border-color: transparent;
-}
-
-.btn-black {
-    background-color: black;
-    color: white;
-    border-color: transparent;
-}
-
-.btn-small {
-    padding: 10px;
-    display: inline;
-}
-
-.btn-big a {
-    padding: 15px 20px;
-    display: inline-block;
-}
-
-.btn-black a {
-    color: white;
-}
-
-.btn-big {
-    font-weight: bold;
-}
-
-
-/* header */
-
-
-/* top-menu */
-
-.top-menu {
-    background-color: #2A5EE8;
-    height: 80px;
-    line-height: 80px;
-}
-
-#logo {
-    vertical-align: middle;
-}
-
-.top-menu .top-nav li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.top-nav li a {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-}
-
-.top-nav li:hover a {
-    text-decoration: underline;
-}
-
-
-/* jumbotron */
-
-.jumbotron {
-    height: 400px;
-    margin: 0 auto;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.jumbo-content {
-    font-size: 25px;
-    color: white;
-    width: 50%;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -25%);
-}
-
-.jumbo-content p {
-    margin-top: 30px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-
-/* jumbo button */
-
-.jumbo-buttons {
-    position: absolute;
-    bottom: 30%;
-    right: 50%;
-    transform: translate(50%);
-}
-
-button {
-    margin-right: 20px;
-}
-
-.jumbo-buttons button:hover {
-    transform: scale(1.1);
-}
-
-.jumbo-buttons button:active {
-    transform: scale(1);
-}
+    /* reset */
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    /* utils */
+    
+    .container {
+        max-width: 1200px auto;
+        margin: 100px auto;
+    }
+    
+    .col {
+        float: left;
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .wd-20 {
+        width: 20%;
+    }
+    
+    .wd-60 {
+        width: 60%;
+    }
+    
+    .wd-30 {
+        width: 30%;
+    }
+    
+    .wd-40 {
+        width: 40%;
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-left {
+        text-align: left;
+    }
+    
+    .btn {
+        border-radius: 15px;
+    }
+    
+    .col .btn a {
+        padding: 15px 25px;
+    }
+    
+    .btn a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .btn-white {
+        background-color: white;
+        color: black;
+        border-color: transparent;
+    }
+    
+    .btn-black {
+        background-color: black;
+        color: white;
+        border-color: transparent;
+    }
+    
+    .btn-small {
+        padding: 10px;
+        display: inline;
+    }
+    
+    .btn-big a {
+        padding: 15px 20px;
+        display: inline-block;
+    }
+    
+    .btn-black a {
+        color: white;
+    }
+    
+    .btn-big {
+        font-weight: bold;
+    }
+    /* header */
+    /* top-menu */
+    
+    .top-menu {
+        background-color: #2A5EE8;
+        height: 80px;
+        line-height: 80px;
+    }
+    
+    #logo {
+        vertical-align: middle;
+    }
+    
+    .top-menu .top-nav li {
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+    .top-nav li a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+    }
+    
+    .top-nav li:hover a {
+        text-decoration: underline;
+    }
+    /* jumbotron */
+    
+    .jumbotron {
+        height: 400px;
+        margin: 0 auto;
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .jumbo-content {
+        font-size: 25px;
+        color: white;
+        width: 50%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+    }
+    
+    .jumbo-content p {
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* jumbo button */
+    
+    .jumbo-buttons {
+        position: absolute;
+        bottom: 30%;
+        right: 50%;
+        transform: translate(50%);
+    }
+    
+    button {
+        margin-right: 20px;
+    }
+    
+    .jumbo-buttons button:hover {
+        transform: scale(1.1);
+    }
+    
+    .jumbo-buttons button:active {
+        transform: scale(1);
+    }
+    /* main */
+    
+    div.col.first-img {
+        position: relative;
+        height: 500px;
+    }
+    
+    .first-img img {
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        right: 100px;
+        top: 0;
+    }
+    
+    .col.first-text {
+        padding: 30px 320px 0px 0px;
+    }
+    
+    .first-text h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .first-text p {
+        font-size: 14px;
+        font-weight: bold;
+    }
