@@ -134,12 +134,11 @@
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -25%);
 }
 
 .jumbo-content p {
     margin-top: 30px;
-    margin-bottom: 10px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -152,4 +151,16 @@
     bottom: 30%;
     right: 50%;
     transform: translate(50%);
+}
+
+button {
+    margin-right: 20px;
+}
+
+.jumbo-buttons button:hover {
+    transform: scale(1.1);
+}
+
+.jumbo-buttons button:active {
+    transform: scale(1);
 }
