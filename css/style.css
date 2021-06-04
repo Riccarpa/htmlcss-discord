@@ -259,4 +259,16 @@ section.last-section {
     top: 100px;
     right: 50%;
     transform: translate(50%);
+    text-align: center;
+}
+
+button.download a {
+    padding: 15px 20px;
+    display: inline-block;
+    color: white;
+}
+
+button.download {
+    margin-top: 30px;
+    background-color: teal;
 }
