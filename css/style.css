@@ -45,6 +45,10 @@
     border-radius: 15px;
 }
 
+.col .btn a {
+    padding: 15px 25px;
+}
+
 .btn a {
     text-decoration: none;
     color: black;
@@ -63,7 +67,7 @@
 }
 
 .btn-small {
-    padding: 10px 15px;
+    padding: 10px;
     display: inline;
 }
 
