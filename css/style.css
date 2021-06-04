@@ -12,7 +12,7 @@
 
 .container {
     max-width: 1200px auto;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .col {
@@ -114,6 +114,10 @@ div.col.text p {
 
 /* top-menu */
 
+header {
+    margin-bottom: 100px;
+}
+
 .top-menu {
     background-color: #2A5EE8;
     height: 80px;
@@ -191,6 +195,10 @@ button {
 
 
 /* main */
+
+main section {
+    margin-bottom: 100px;
+}
 
 
 /* first section */
