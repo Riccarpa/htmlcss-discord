@@ -108,6 +108,18 @@ div.col.text p {
     line-height: 20px;
 }
 
+.last-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.last-section p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
 
 /* header */
 
@@ -228,4 +240,23 @@ div.col.second-text {
 }
 
 
-/* 3rd section */
+/* last section */
+
+section.last-section {
+    position: relative;
+}
+
+.last-section.text {
+    text-align: center;
+    max-width: 50%;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+}
+
+.last-section.img {
+    position: absolute;
+    top: 100px;
+    right: 50%;
+    transform: translate(50%);
+}
