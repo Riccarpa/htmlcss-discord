@@ -125,6 +125,23 @@
     .wave::after {
         content: "";
         background-image: url(../img/wave.svg);
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+        opacity: 0.1;
+        top: -70%;
+        left: 0;
+        bottom: 50%;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .wave-third::after {
+        content: "";
+        background-image: url(../img/wave.svg);
         opacity: 0.1;
         top: -50%;
         left: 0;
@@ -140,7 +157,7 @@
         opacity: 0.1;
         top: -20%;
         left: 0;
-        bottom: 0;
+        bottom: -30%;
         right: 0;
         position: absolute;
         z-index: -1;
