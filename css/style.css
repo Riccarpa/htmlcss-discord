@@ -121,8 +121,18 @@
         font-weight: 500;
         line-height: 20px;
     }
-    /* header */
-    /* top-menu */
+    
+    .wave::after {
+        content: "";
+        background-image: url(../img/wave.svg);
+        opacity: 0.1;
+        top: -50%;
+        left: 0;
+        bottom: 50%;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
     
     header {
         margin-bottom: 100px;
@@ -205,6 +215,10 @@
     }
     /* first section */
     
+    section.first-section {
+        position: relative;
+    }
+    
     div.col.first-img {
         position: relative;
         height: 500px;
@@ -223,8 +237,18 @@
     }
     /* second section */
     
+    section.second-section {
+        position: relative;
+        width: 100%;
+    }
+    
     div.col.second-text {
         padding: 30px 0px 0px 180px;
+    }
+    /* 3rd section */
+    
+    section.third-section {
+        position: relative;
     }
     /* last section */
     
