@@ -134,6 +134,18 @@
         z-index: -1;
     }
     
+    .wave-last::after {
+        content: "";
+        background-image: url(../img/wave.svg);
+        opacity: 0.1;
+        top: -20%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    
     header {
         margin-bottom: 100px;
     }
